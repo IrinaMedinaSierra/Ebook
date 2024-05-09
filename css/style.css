@@ -78,8 +78,14 @@ line-height: 1.5;
 }
 .header{
     height: 100vh;
-    background-color: #333;
     flex-direction: column;
+}
+.footer,.header{
+    background-color: #333;
+}
+.footer{
+height: 500px;
+
 }
 .ebook{
     margin-top: 50px;
@@ -114,6 +120,12 @@ line-height: 1.5;
     color:white;
     border: none; 
 }
+.boton:hover{
+    cursor: pointer;
+    background-color: #222322;
+  
+}
+
 .margen-top-200{
     margin-top: 200px;
 }
@@ -167,4 +179,35 @@ line-height: 1.5;
 .img-autor{
     max-height: 600px;
 }
+.caja-blanca{
+background-color: white;
+height: 450px;
+}
 
+.margen-xy-25{
+    margin: 25px;
+}
+.precio{
+    color: #333;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 25px;
+}
+.precio sup{
+    font-size: 35px;
+    font-weight: 300;  
+}
+.precio-descripcion{
+    font-size: 12;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.texto-4,.precio-descripcion{
+    color:#aaa;
+}
+.rojo{
+color: red;
+}
